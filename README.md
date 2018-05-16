@@ -1,5 +1,5 @@
 # formeritis
-TestTeam
+Team
 
 Helli hello
 
@@ -32,9 +32,11 @@ Spring boot 2 et java 8
 - Se mettre sur cydbridge : mvn clean install
 - Deployement dev : mvn spring-boot:run
 
+=>http://localhost:8080/swagger-ui.html   et http://localhost:8080/index
+
 ## Remarques 
 
--
+- Comme dit precedemment, le client utilise un mock server et c'est le code dans src/app.module.ts du client qui le configure (ligne 37 à 42) ... 
 
 
 
